@@ -1,5 +1,5 @@
 body{background-color: #72EFDD;}
-.container{padding:10px;}
+.container{padding:2px;}
 
 .container-flex{
     display:flex;
@@ -7,13 +7,14 @@ body{background-color: #72EFDD;}
 }
 .title{
     color:#7400B8;
-    padding:10px;
+    padding:8px;
     }
 
 .weather-card{
     width:auto;
     margin-top:20px;
     margin:auto;
+    box-shadow:10px 10px 20px gray;
 }
 
 .weather-icon{
@@ -26,36 +27,38 @@ body{background-color: #72EFDD;}
 text-align: center;}
 input{
     border:none;
-    border-radius:5px;
+    border-radius:8px;
     padding:7px;
     }
 .btn-search{
     color:#ffffff;
     background-color:#4d4d4d;
     padding:7px;
-    border-radius:5px;
+    border-radius:8px;
     border:none;
     margin:auto;
 }
 
 .weather-data{
-    border-radius:5px;
+    border-radius:8px;
     justify-content: center;
     align-items: center;
     width:auto;
     padding:auto;
     height:auto;
+    box-shadow:10px 10px 20px gray;
     
    }
 .lg-card{
     background-color: #ffffff;
-    border-radius:5px;
+    border-radius:8px;
     margin-top:15px;
     width:auto;
     height:auto;
     text-align: center;
     padding:20px;
     font-size: 20px;
+    box-shadow:10px 10px 20px gray;
 }
 .all-cards{
     display:flex;
@@ -63,6 +66,7 @@ input{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    box-shadow:10px 10px 20px gray;
 }
 .sm-card{
     background-color: #80ffdb;
@@ -110,7 +114,7 @@ footer{
 @media screen 
   and (min-device-width: 1200px) {
         .container-flex{
-            display:flex;
+            display:inline-flex;
             flex-direction: row;
         }
         .weather-data{
