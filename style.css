@@ -1,4 +1,4 @@
-body{background-color: #f2f2f2;}
+body{background-color: #72EFDD;}
 .container{padding:10px;}
 
 .container-flex{
@@ -6,7 +6,7 @@ body{background-color: #f2f2f2;}
     flex-direction: column;
 }
 .title{
-    color:#ffffff;
+    color:#7400B8;
     padding:10px;
     }
 
