@@ -1,5 +1,5 @@
-body{background-color: #72EFDD;}
-.container{padding:2px;}
+body{background-color: #80FFDB;}
+.container{padding:1px;}
 
 .container-flex{
     display:flex;
@@ -7,14 +7,14 @@ body{background-color: #72EFDD;}
 }
 .title{
     color:#7400B8;
-    padding:8px;
+    padding:4px;
     }
 
 .weather-card{
     width:auto;
     margin-top:20px;
     margin:auto;
-    box-shadow:10px 10px 20px gray;
+    padding:7px;
 }
 
 .weather-icon{
@@ -50,7 +50,7 @@ input{
     
    }
 .lg-card{
-    background-color: #ffffff;
+    background-color: #80FFDB;
     border-radius:8px;
     margin-top:15px;
     width:auto;
@@ -58,7 +58,6 @@ input{
     text-align: center;
     padding:20px;
     font-size: 20px;
-    box-shadow:10px 10px 20px gray;
 }
 .all-cards{
     display:flex;
@@ -66,7 +65,6 @@ input{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    box-shadow:10px 10px 20px gray;
 }
 .sm-card{
     background-color: #80ffdb;
@@ -78,6 +76,7 @@ input{
     align-items: center;
     display:flex;
     flex-direction: column;
+    box-shadow:10px 10px 20px gray;
 }
 .icon{
     height:60px;
@@ -88,8 +87,8 @@ input{
     font-size: 18px;
     color:#fc0366;
 }
-.place{color:#00e673;}
-.date{color: #0099ff;}
+.place{color:#48BFE3;}
+.date{color: #48BFE3;}
 .temp{font-size:40px ;}
 
 p{
